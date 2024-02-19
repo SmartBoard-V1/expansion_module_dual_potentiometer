@@ -17,7 +17,7 @@ This repository contains the design and implementation details of a Dual Potenti
 - **Ease of Programming**: Direct programming and configuration via connector signals.
 
 ### MCP3202 ADC
-The MCP3202 ADC is an integral part of this module, offering high-resolution, 12-bit analog-to-digital conversion. It features two analog input channels, perfect for reading the positions of the potentiometers. The ADC communicates with the ATtiny48 microcontroller via SPI, ensuring accurate and swift data transfer for real-time adjustments. Detailed information about the MCP3202 ADC can be found in the [documentation](media/21034F-64776.pdf).
+The MCP3202 ADC is an integral part of this module, offering high-resolution, 12-bit analog-to-digital conversion. It features two analog input channels, perfect for reading the positions of the potentiometers. The ADC communicates via SPI, ensuring accurate and swift data transfer for real-time adjustments. Detailed information about the MCP3202 ADC can be found in the [documentation](media/21034F-64776.pdf).
 
 ### Schematic and Board Design
 ![Schematic](media/sch.png)
