@@ -19,21 +19,12 @@ This repository contains the design and implementation details of a Dual Potenti
 ### MCP3202 ADC
 The MCP3202 ADC is a crucial component of this module, offering high-resolution analog-to-digital conversion with its 12-bit precision. It features two analog input channels, making it perfect for reading the potentiometers' positions. The ADC communicates through SPI, providing fast and accurate data transfer for real-time adjustments.
 
-### Schematic
+### Schematic and Board Design
 ![Schematic](media/sch.png)
-*This schematic provides a detailed view of the circuit design, including the integration of the potentiometers, ATtiny48 microcontroller, and MCP3202 ADC.*
+*The schematic provides a comprehensive view of the circuit design, illustrating the integration of the potentiometers, ATtiny48 microcontroller, and MCP3202 ADC.*
 
-### Board Design - Top View
-![Board Design Top](media/brd_top.png)
-*Top view of the PCB layout, showing the placement of potentiometers, ATtiny48, and MCP3202 ADC among other components.*
-
-### Board Design - Bottom View
-![Board Design Bottom](media/brd_bottom.png)
-*Bottom view of the PCB layout, illustrating trace routing and additional component placement for a comprehensive design overview.*
-
-### Connector Signals
-![Connector Signals](media/CONx1.png)
-*Details of the connector signal layout for smartboard integration, highlighting each pin's function and connectivity.*
+![Board Design](media/brd.png)
+*This image shows the PCB layout, highlighting the placement of components such as the potentiometers, ATtiny48, and MCP3202 ADC, giving a clear overview of the design.*
 
 ## Contributions and Feedback
 Contributions to this project are welcome. If you have improvement suggestions or have developed new features, please fork the repository, implement your changes, and submit a pull request. For questions or issues, feel free to open an issue in the GitHub repository.
