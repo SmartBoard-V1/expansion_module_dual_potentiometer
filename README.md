@@ -6,19 +6,18 @@
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
-This repository contains the design and implementation details of a Dual Potentiometer Module, integrating two distinct potentiometers with an ATtiny48 microcontroller and an MCP3202 ADC for precise analog-to-digital conversion. Designed for smartboard system expansions, it connects via a single smartboard connector and supports precise parameter control for a wide range of applications.
+This repository contains the design and implementation details of a Dual Potentiometer Module, integrating two distinct potentiometers with an MCP3202 ADC for precise analog-to-digital conversion. Designed for smartboard system expansions, it connects via a single smartboard connector and supports precise parameter control for a wide range of applications.
 
 ## Key Features
 - **Variable Resistance Potentiometer**: Smooth, continuous rotation from 0 to maximum resistance, suitable for volume or intensity control.
 - **Center-Detent Potentiometer**: Features a tactile midpoint for easy balance or center-value setting, ideal for parameters requiring deviation from a central point (e.g., left-right, negative-positive adjustments).
-- **ATtiny48 Microcontroller**: Processes digital signals efficiently.
 - **MCP3202 ADC**: A 12-bit Analog-to-Digital Converter (ADC) with SPI interface for high precision analog signal conversion, enhancing the module's accuracy and reliability.
-- **SPI Communication**: Facilitates robust and versatile communication through the Serial Peripheral Interface (SPI), ensuring reliable data transfer between the microcontroller, ADC, and any connected smartboard system.
+- **SPI Communication**: Facilitates robust and versatile communication through the Serial Peripheral Interface (SPI), ensuring reliable data transfer between the ADC and any connected smartboard system.
 - **Smartboard Compatibility**: Easily integrates with smartboard systems through a dedicated connector.
 - **Ease of Programming**: Direct programming and configuration via connector signals.
 
 ### MCP3202 ADC
-The MCP3202 ADC is a crucial component of this module, offering high-resolution analog-to-digital conversion with its 12-bit precision. It features two analog input channels, making it perfect for reading the potentiometers' positions. The ADC communicates with the ATtiny48 microcontroller through SPI, providing fast and accurate data transfer for real-time adjustments.
+The MCP3202 ADC is a crucial component of this module, offering high-resolution analog-to-digital conversion with its 12-bit precision. It features two analog input channels, making it perfect for reading the potentiometers' positions. The ADC communicates through SPI, providing fast and accurate data transfer for real-time adjustments.
 
 ### Schematic
 ![Schematic](media/sch.png)
